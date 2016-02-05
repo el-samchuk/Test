@@ -1,0 +1,66 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-size: 10px;
+	font-family: 'Open Sans', sans-serif;
+	background-color: #fff;
+}
+h2 {
+	font-size: 2rem;
+	color: #504f50;
+	padding-top: 6rem;
+}
+h3 {
+	font-size: 1.4rem;
+	color: #504f50;
+}
+.main-font {
+	font-size: 1.4rem;
+	color: #a8a8a8;
+}
+.line {
+	width: 100px;
+	height: 2px;
+	background-color: #39c9da;
+	margin: 2.2rem 0 3rem 0;
+}
+.btn-main {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+	background-color: #39c9da;
+	border-color: #39c9da; 
+}
+.btn-main:hover, 
+.btn-main:visited {
+	color: #39c9da;
+	background-color: #fff;
+	border-color: #39c9da;
+} 
+/*----------------HEADER-------------------*/
+header {
+	background-image: url(img/banner-header.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	min-height: 53.2rem;
+}
+/*----------------END of HEADER-------------*/
+
+/*----------------ABOUT US------------------*/
+.about-us-text {
+	margin-top: 5rem;
+	padding-bottom: 5rem;
+}
+/*----------------END of ABOUT US-----------*/
+
+/*----------------PORTFOLIO-----------------*/
+.porfolio {
+	background-color: #f4f4f4;
+	border: 1px solid #e8e8e8;
+}
