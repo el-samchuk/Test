@@ -19,6 +19,11 @@ h3 {
 	font-size: 1.4rem;
 	color: #504f50;
 }
+h4 {
+	font-size: 2rem;
+	color: #504f50;
+	margin: 0;
+}
 .main-font {
 	font-size: 1.4rem;
 	color: #a8a8a8;
@@ -63,4 +68,73 @@ header {
 .porfolio {
 	background-color: #f4f4f4;
 	border: 1px solid #e8e8e8;
+	font-size: 1.4rem;
+}
+.thumbnail-porfolio {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	line-height: 0;
+	margin-bottom: 4rem;
+	margin-left: 1rem;
+}
+.caption-porfolio {
+	height: 6rem;
+	border: 1px solid #c7c4c7;
+	padding: 0 1.4rem 0 1.4rem;
+	background-color: #fff;
+}
+.caption-porfolio p {
+	padding-top: 2.5rem;
+	color: #504f50;
+}
+.portfolio-span {
+	font-style: italic;
+	color: #d8d6d8;
+}
+/*----------------END of PORTFOLIO----------*/
+
+/*----------------SERVICES------------------*/
+.services {
+	background-color: #fafafa;
+}
+.thumbnail-services {
+	height: 30rem;
+	border: 1px solid #e2e2e2;
+	background-color: #fff;
+	margin-bottom: 6.4rem;
+}
+
+.thumbnail-services img {
+	padding: 2.5rem 0 2.5rem 0;
+}
+.thumbnail-services p {
+	font-size: 1.4rem;
+	color: #504f50;
+	padding: 0 2rem 0 2.8rem;
+}
+.example {
+	background-color: #39c9da;
+}
+.example h4, .example p {
+	color: #fff;
+}
+.grey-line {
+	width: 7.5rem;
+	height: 2px;
+	background-color: #c2c2c2;
+	margin-top: 1.4rem;
+	margin-bottom: 3rem;
+}
+.btn-services {
+	width: 13rem;
+	background-color: #4b4a4b;
+	color: #fff;
+	margin: 0 0 1.8rem 0;
+}
+.btn-example {
+	width: 13rem;
+	background-color: #fff;
+	color: #4b4a4b;
+	margin: 0 0 1.8rem 0;
 }
