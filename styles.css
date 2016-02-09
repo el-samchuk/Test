@@ -10,6 +10,11 @@ body {
 	font-family: 'Open Sans', sans-serif;
 	background-color: #fff;
 }
+h1 {
+	font-size: 3.3rem;
+	color: #fff;
+	padding-top: 20rem;
+}
 h2 {
 	font-size: 2rem;
 	color: #504f50;
@@ -54,6 +59,30 @@ header {
 	background-position: top;
 	background-size: cover;
 	min-height: 53.2rem;
+}
+.navbar {
+	border: none;
+	background-color: transparent;
+}
+.navbar-default .navbar-nav > li > a {
+	color: #fff;
+	font-size: 1.5rem;
+	font-weight: bold;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	color: #39c9da;
+}
+.navbar-toggle {
+	background-color: #fff;
+	border: none;
+}
+.btn-header {
+	font-size: 2rem;
+	font-weight: bold;
+	color: #fff;
+	background-color: #39c9da;
+	border-color: #39c9da; 
+	margin-top: 4rem;
 }
 /*----------------END of HEADER-------------*/
 
@@ -137,4 +166,50 @@ header {
 	background-color: #fff;
 	color: #4b4a4b;
 	margin: 0 0 1.8rem 0;
+}
+/*----------------END of SERVICES-----------*/
+
+/*----------------CONTACT-------------------*/
+.contact {
+	background-color: #f4f4f4;
+	border: 1px solid #e9e9e9;
+	border-top-color: #e9e9e9;
+	/*height: 64rem;*/
+}
+address {
+	font-size: 1.4rem;
+	color: #a8a8a8;
+	margin-bottom: 16rem;
+}
+textarea {
+	resize: none;
+}
+.form-inline {
+	padding-top: 2.5rem;
+} 
+.form-control {
+	border-radius: 0;
+}
+.contact-inline {
+	width: 27rem !important;
+	/*margin-bottom: 3rem;*/
+}
+.form-control {
+	margin-bottom: 3rem;
+}
+.form-line {
+	margin-left: 12px;
+}
+/*.form-inline:last-chlid {
+	margin-left: 1.5rem;
+}*/
+/*----------------END of CONTACT------------*/
+
+/*----------------FOOTER--------------------*/
+footer {
+	height: 48px;
+	background-color: #39c9da;
+	font-size: 1.4rem;
+	line-height: 48px;
+	color: #fff;
 }

@@ -8,16 +8,51 @@
 	<title>LP</title>
 
 	<link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <!--<link href="styles.css" rel="stylesheet">-->
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
     
-    <!--<link rel="stylesheet/less" type="text/css" href="styles.less" />-->
+    <link rel="stylesheet/less" type="text/css" href="styles.less"/>
+    <script src="js/less.js" type="text/javascript"></script>
 
-    <!--<script src="js/less.js" type="text/javascript"></script>-->
+    
+
 </head>
 <body>
 	<header>
-		
+		<div class="navbar navbar-default" role="navigation">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+
+                  <a class="navbar-brand" href="#"><img src="img/logo.png" class="img-responsive " alt="Site Logo">
+                </a>
+            </div><!--navbar-header-->  
+
+            <div class="navbar-collapse collapse">
+                <ul class="nav navbar-nav nav-pills navbar-right">
+                  <li role="presentation"><a href="#">HOME</a></li>
+                  <li role="presentation"><a href="#">ABOUT US</a></li>
+                  <li role="presentation"><a href="#">PORTFOLIO</a></li>
+                  <li role="presentation"><a href="#">SERVICES</a></li>
+                  <li role="presentation"><a href="#">CONTACT US</a></li>
+                </ul><!--nav-->
+            </div><!--collapse-->
+            </div><!--container-->
+        </div><!--navbar-->
+
+        <div class="container">
+        	<div class="row">
+        		<div class="col-md-12 text-center">
+        			<h1 class="text-uppercase"><strong>the ultimate collection of<br>free psd templates</strong></h1>
+        			<button class="btn btn-default btn-main" type="submit">DOWNLOAD</button>
+        		</div><!--col-md-12-->
+        	</div><!--row-->
+        </div><!--container-->
 	</header>
 
 	<article>
@@ -33,7 +68,7 @@
 		<div class="container about-us-text">
 			<div class="row">
 				<div class="col-md-6">
-					<img src="img/about-us.png" class="img-responsive" width="571" height="275" alt="About us picture">
+					<img src="img/about-us.png" class="img-responsive about-us-img" width="571" height="275" alt="About us picture">
 				</div><!--col-md-6-->
 
 				<div class="col-md-6">
@@ -187,14 +222,76 @@
 								</div><!--caption-->
 						</div><!--thumbnail-->
 					</div><!--col-md-3-->
-
-
-
-
 				</div><!--row-->
 			</div><!--container-->
 		</div><!--services-->
 	</article>
+	
+	<article>
+		<div class="contact">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center"> 
+						<h2><strong>CONTACT US</strong></h2>
+						<p class="main-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae quis, ipsam. Maiores<br> soluta facere accusantium modi libero.</p>
+					</div><!--col-md-12-->
+				</div><!--row-->
+			</div><!--container-->
+
+
+			<div class="container">
+				<div class="row">
+					<div class="col-md-6">
+						<h3 class="text-uppercase"><strong>CONTACT INFO</strong></h3>
+						<div class="line"></div>
+						<p class="main-font">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Hic possimus autem libero maiores ducimus, delectus soluta illum odio amet aut veniam consectetur distinctio accusantium adipisci, iusto deleniti sit asperiores omnis.</p>
+
+						<address>
+							<strong>Address</strong><br>
+							1931 Dawson Drive,<br>
+							15th Avenue,<br>
+							Little Rock, AR 72211
+						</address>
+					</div><!--col-md-6-->
+
+					<div class="col-md-6">
+						<form class="form-inline">
+							<div class="form-group">
+								<input type="text" class="form-control contact-inline" placeholder="Name...">
+							</div><!--form-group-->
+
+							<div class="form-group">
+								<input type="text" class="form-control contact-inline form-line" placeholder="E-Mail...">
+							</div><!--form-group-->
+						</form><!--form-inline-->
+
+						<form>
+							<div class="form-group">
+								<input type="text" class="form-control" placeholder="Subject...">
+							</div><!--form-group-->
+						</form>
+
+						<textarea class="form-control" rows="4" placeholder="Message..."></textarea>
+
+						<button class="btn btn-default btn-main pull-right" type="submit">SUBMIT</button>
+						
+					</div><!--col-md-6-->
+				</div><!--row-->
+			</div><!--container-->
+
+		</div><!--contact-->
+	</article>
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 text-center">
+					<p>Copywright &copy; 2014 UIBrush</p>
+				</div>
+			</div><!--row-->
+		</div><!--container-->
+	</footer>
+
 	
 
 	

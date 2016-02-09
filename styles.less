@@ -1,0 +1,260 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+body {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 10px;
+	
+}
+/*---------------COLORS--------------------*/
+@colorWht: #ffffff;
+@siteColor: #39c9da; /*бирюза*/
+@fontColor: #a8a8a8; /*серый*/
+@hColor: #504f50;
+@titleColor: #a8a8a8; /*цвет подзаголовка*/
+@bgcPortfolioContact: #f4f4f4;
+@bgcServices: #fafafa;
+@borderColor: #e9e9e9;
+@borderThumbnail: #e8e8e8;
+
+/*---------------FONT----------------------*/
+@h1Font: 3.3rem;
+@h2Font: 2rem;
+@h3Font: 1.4rem;
+@h4Font: 2rem;
+@mainFont: 1.4rem;
+@navFont: 1.5rem;
+@btnMainFont: 2rem;
+
+h2, h3, h4 {
+	color: @fontColor;
+}
+
+.main-font {
+	font-size: @mainFont;
+	color: @fontColor;
+}
+.border() {
+	border: 1px solid #e9e9e9;
+}
+/*---------------HEADER---------------------*/
+header {
+	background-image: url(img/banner-header.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	background-size: cover;
+	min-height: 53.2rem;
+	color: @colorWht;
+}
+h1 {
+	font-size: @h1Font;
+	padding-top: 20rem;
+	color: @colorWht;
+}
+.navbar {
+	border: none;
+	background-color: transparent;
+}
+.navbar-default {
+	.navbar-nav {
+		li {
+			a {
+				color: @colorWht;
+				font-size: @navFont;
+				font-weight: bold;
+			}
+		}
+	}
+}
+.navbar-default {
+	.navbar-nav {
+		li {
+			a:hover {
+				color: @siteColor;
+			}
+		}
+	}
+}
+.navbar-toggle {
+	background-color: @colorWht;
+	border: none;
+}
+
+.btn-main {
+	font-size: @btnMainFont;
+	font-weight: bold;
+	color: @colorWht;
+	background-color: @siteColor;
+	border-color: @siteColor; 
+	margin-top: 4rem;
+
+	&:hover {
+		background-color: @colorWht;
+		border-color: @siteColor;
+		color: @siteColor; 
+	}
+}
+/*---------------END of HEADER--------------*/
+
+/*---------------ABOUT US-------------------*/
+.about-us-text {
+	padding-bottom: 5rem;
+}
+.about-us-img {
+	padding-top: 5rem;
+}
+.main-font {
+	color: @fontColor;
+	font-size: @titleColor;
+}
+.line {
+	width: 100px;
+	height: 2px;
+	background-color: @siteColor;
+	margin: 2.2rem 0 3rem 0;
+}
+h2 {
+	font-size: @h2Font;
+	padding-top: 6rem;
+}
+h3 {
+	font-size: @h3Font;
+}
+/*----------------END of ABOUT US-----------*/
+
+/*---------------PORTFOLIO------------------*/
+.porfolio {
+	.border;
+	background-color: @bgcPortfolioContact;
+	font-size: @mainFont;
+}
+.thumbnail-porfolio {
+	padding: 0;
+	border: 0;
+	border-radius: 0;
+	line-height: 0;
+	margin-bottom: 4rem;
+	margin-left: 1rem;
+}
+.caption-porfolio {
+	height: 6rem;
+	border: 1px solid @borderThumbnail;
+	padding: 0 1.4rem 0 1.4rem;
+	background-color: @colorWht;
+
+		p {
+			padding-top: 2.5rem;
+			color: #504f50;
+		}
+
+		    span {
+		    	font-style: italic;
+				color: #d8d6d8;
+		    }
+}
+/*---------------END of PORTFOLIO-----------*/
+
+/*---------------SERVICES-------------------*/
+.services {
+	background-color: @bgcServices;
+}
+.thumbnail-services {
+	height: 30rem;
+	border: 1px solid #e2e2e2;
+	background-color: @colorWht;
+	margin-bottom: 6.4rem;
+}
+.example {
+	background-color: @siteColor;
+
+	h4 {
+		color: @colorWht;
+	}
+}
+.thumbnail-services {  
+	p {
+	font-size: @mainFont;
+	color: @hColor;
+	padding: 0 2rem 0 2.8rem;
+	}
+
+	img {
+		padding: 2.5rem 0 2.5rem 0;
+	}
+}
+.grey-line {
+	width: 7.5rem;
+	height: 2px;
+	background-color: #c2c2c2;
+	margin-top: 1.4rem;
+	margin-bottom: 3rem;
+}
+.btn-services {
+	width: 13rem;
+	background-color: #4b4a4b;
+	color: @colorWht;
+	margin: 0 0 1.8rem 0;
+
+	&:hover {
+		background-color: @siteColor;
+		color: @colorWht;
+		border-color: @siteColor;
+	}
+}
+.btn-example {
+	width: 13rem;
+	background-color: @colorWht;
+	color: #4b4a4b;
+	margin: 0 0 1.8rem 0;
+
+	&:hover {
+		background-color: #4b4a4b;
+		color: @siteColor;
+	}
+}
+/*---------------END of SERVICES------------*/
+
+/*----------------CONTACT-------------------*/
+.contact {
+	.border;
+	background-color: @bgcPortfolioContact;
+}
+
+address {
+	font-size: 1.4rem;
+	color: @fontColor;
+	margin-bottom: 16rem;
+}
+textarea {
+	resize: none;
+}
+.form-inline {
+	padding-top: 2.5rem;
+} 
+.form-control {
+	border-radius: 0;
+}
+.contact-inline {
+	width: 27rem !important;
+}
+.form-control {
+	margin-bottom: 3rem;
+}
+.form-line {
+	margin-left: 11px;
+}
+/*---------------END of CONTACT-------------*/
+
+/*---------------FOOTER---------------------*/
+footer {
+	height: 48px;
+	line-height: 48px;
+	font-size: @mainFont;
+	color: @colorWht;
+	background-color: @siteColor;
+}
+/*---------------END of FOOTER---------------*/
