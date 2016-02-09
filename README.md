@@ -1,1 +1,2 @@
-# Test
+# Example less.js
+without adaptivity
